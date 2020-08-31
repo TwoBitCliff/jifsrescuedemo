@@ -1,6 +1,6 @@
 # Jif's Rescue
 
-[View the live project here](https://twobitcliff.github.io/jifsrescue/)
+[View the live project here](https://twobitcliff.github.io/jifsrescuedemo/)
 
 (This is the demo version for the project submitted. This version fixes the broken link to the hero image. The full project with all commits can be found [here](https://github.com/TwoBitCliff/jifsrescue)) 
 
