@@ -8,7 +8,7 @@ This is the main website for Jif’s Rescue, a fictional animal rescue sanctuary
 This is the first milestone project for the Full Stack Developer course, encompassing all skills learnt so far, including HTML and CSS, as well as using bootstrap for a user-friendly, mobile first design.
 It is designed to be attention grabbing and encourage the user to return. To help achieve this, the website is responsive to different device sizes, altering the layout and functionality of the site depending on the device being used. To achieve this, bootstrap and media queries were used.
 
-![Image of Home Page](./assets/images/readme/homepage.PNG)
+![Image of Home Page](./documentaion/readme/homepage.PNG)
 
 ## User Experience (UX)
 
