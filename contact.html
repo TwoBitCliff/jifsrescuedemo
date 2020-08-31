@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lobster&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/e8e81b7d92.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title>Jif's Rescue</title>
+  </head>
+
+  <body>
+
+    <!--Navigation Menu-->
+    
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top-md brand-green-bg">
+        <a class="navbar-brand" href="index.html">
+        <img
+          src="./assets/images/jifsrescuelogo.jpg"
+          class="d-inline-block align-top jifs-rescue-logo"
+          alt="Jif's Rescue Logo"/>
+          </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+        <span><i class="fas fa-paw brand-green"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link general-heading brand-white" href="index.html">
+                Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link general-heading brand-white" href="about.html">
+              About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link general-heading brand-white" href="animals.html">
+                Animals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link general-heading brand-white" href="volunteer.html">
+              Volunteers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link general-heading brand-white" href="contact.html">
+              Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contact Form -->
+
+    <section>
+      <div class="container-fluid contact-form-card">
+        <div class="card">
+          <div class="card-header form-header contact-header brand-green-bg brand-white text-center">
+            <h1 class="section-heading text-center">Contact Us</h1>
+            <p class="content-text">Want to know more? Or find out how to help out? Get in touch, and we promise to reply within 48
+              hours.
+            </p>
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="nameInput" class="content-text"><i class="fas fa-user"></i> Full Name</label>
+                <input type="text" class="form-control" id="nameInput" placeholder="Full Name" required>
+              </div>
+              <div class="form-group">
+                <label for="InputEmail" class="content-text"><i class="fas fa-envelope"></i> Email Address</label>
+                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="contact-form-interest">
+                <input type="radio" id="Adoptions" name="type" value="Adoptions" disabled>
+                <label for="Adoptions" class="content-text">Adoptions</label><br>
+                <input type="radio" id="Donations" name="type" value="Donations">
+                <label for="Donations" class="content-text">Donations</label><br>
+                <input type="radio" id="Volunteer" name="type" value="Volunteer">
+                <label for="Volunteer" class="content-text">Volunteer</label>
+                <small class="form-text text-muted">Due to COVID-19 adoptions are temporarily suspended</small>
+              </div>
+              <div class="form-group">
+                <label for="form-text" class="content-text"><i class="fas fa-comment"></i> Send Message</label>
+                <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn contact-form-btn brand-green-bg brand-white text-center">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+
+    <footer class="container-fluid footer brand-green-bg">
+      <div class="row">
+        <div class="col-sm-4 contact-us">
+          <h6 class="general-heading footer-heading brand-white text-center">Contact Us</h6>
+          <hr class="footer-break brand-white">
+          <ul style="list-style: none;" class="footer-list-contact text-center">
+            <li class="content-text"><i class="fas fa-map-signs"></i><a class="brand-white" href="https://www.google.com/maps/"
+              target="_blank"> Find Us</a></li>
+            <li class="content-text">
+              <i class="fas fa-envelope"></i><a class="brand-white" href="contact.html"> Email Us</a>
+            </li>
+            <li class="content-text"><i class="fas fa-phone"></i> 07903942179</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h6 class="general-heading footer-heading brand-white text-center">Useful Links</h6>
+          <hr class="footer-break brand-white">
+          <div class="row useful-links">
+            <div class="col-12">
+              <ul style="list-style: none;" class="footerlist-1 content-text text-left">
+                <li><a class="brand-white" href="https://www.charitychoice.co.uk/frame" target="_blank">FRAME</a></li>
+                <li><a class="brand-white" href="https://www.rspca.org.uk/" target="_blank">RSCPA</a></li>
+                <li>
+                  <a class="brand-white" href="https://www.jeansainsburyanimalwelfare.org.uk/" target="_blank">Jean
+                  Sainsbury</a>
+                </li>
+              </ul>
+              <ul style="list-style: none;" class="footerlist-2 content-text text-right">
+                <li><a class="brand-white" href="https://www.nawt.org.uk/" target="_blank">NAWT</a></li>
+                <li><a class="brand-white" href="https://www.vegansociety.com/" target="_blank">Vegan Society</a></li>
+                <li>
+                  <a class="brand-white" href="https://www.green-alliance.org.uk/index.php" target="_blank">Green Alliance</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 social-links text-center">
+          <h6 class="general-heading footer-heading brand-white">Social Links</h6>
+          <hr class="footer-break brand-white">
+          <a class="brand-white" href="https://www.facebook.com/"
+            target="_blank"><i class="fab fa-facebook-square social-link"></i></a>
+          <a class="brand-white" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square social-link"></i></a>
+          <a class="brand-white" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube-square social-link"></i></a>
+          <a class="brand-white" href="https://www.instagram.com/"
+            target="_blank"><i class="fab fa-instagram-square social-link"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- J-Queries -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

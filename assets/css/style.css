@@ -1,0 +1,343 @@
+/* Google Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lobster&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+/* Colours */
+
+.brand-green-bg {
+background-color:  #28a745;
+}
+
+.brand-green {
+color:  #28a745;
+}
+
+.brand-white {
+     color: #fff;
+}
+
+body {
+  background-color: #f8f8ff
+}
+
+/* Navbar */
+
+.navbar ul li a {
+  font-size: 20px;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-color: #808080;
+  height: 1%;
+  display: block;
+  padding: 5px;
+  margin: 2px;
+}
+
+.jifs-rescue-logo {
+  width: 100%;
+  height: 100%;
+  border-radius: 15%;
+}
+
+/* Headings */
+
+.general-heading {
+  text-transform: uppercase;
+  font-family: "Asap", sans-serif;
+  }
+
+.section-heading {
+  font-family: "lobster", sans-serif;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+/* Footer */
+
+.footer {
+  padding-bottom: 20px;
+  bottom: 0;
+}
+
+.footer-heading {
+  padding-top: 10px;
+}
+
+.footer h6 {
+  margin-top: 10px;
+  }
+
+.footer-list-contact {
+  margin: 0;
+  padding: 0;
+}
+
+.footerlist-1 {
+  margin: 0;
+  padding: 0;
+  float: left;
+  padding-left: 5%;
+}
+
+.footerlist-2 {
+  margin: 0;
+  padding: 0;
+  float: right;
+  padding-right: 5%;
+}
+
+.contact-us {
+  padding: 0;
+  margin: 0;
+}
+
+.social-link {
+  font-size: 5vh;
+  padding: 15px 10px 5px 10px;
+}
+
+/* Line Breaks */
+
+.line-break {
+  display: block;
+  border: solid 1px;
+  width: 50%;
+}
+
+.footer-break {
+  display: block;
+  border: 1px solid;
+  width: 30%;
+}
+
+/* Hero Image */
+
+.hero-image {
+  background-image: url(https://github.com/TwoBitCliff/jifsrescue/blob/master/assets/images/animals/farmyard/pigs.jpg);
+  height: 750px;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.hero-text p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+/* Events */
+
+/* https://dev.to/peterc/how-to-create-joined-bulletpoint-lists-with-css-bbc-news-style-1eem was used to create the soilid line before the list*/
+
+dl:before {
+  background-color: #28a745;
+  width: 2px;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 10px;
+}
+
+dl {
+  position: relative;
+  margin: 0;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  padding-left: 30px;
+}
+
+dt, dd {
+    padding-top: 10px;
+}
+
+/* Contact */
+
+/* https://mdbootstrap.com/docs/jquery/sections/contact/ */
+
+.contact-form-card {
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.contact-form-btn {
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* About */
+
+.about-section {
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 15vh;
+  width: 70%;
+}
+
+.events-rescues {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Animals */
+
+.animal-name {
+  font-weight: 600;
+}
+
+.animal-text {
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.animal-card-body {
+  margin-bottom: 10px;
+}
+
+.adoption-btn {
+  font-family: "Asap", sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.animal-card {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  margin: 20px auto 20px;
+}
+
+.card-img-top {
+  display: flex;
+  height: 190px;
+  width: 100%;
+  position: relative;
+}
+
+/* Volunteers */
+
+.volunteer-item {
+  margin: 10px 5px 10px 5px;
+}
+
+.volunteer-image img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.volunteer-image {
+  height: 300px;
+  display: block;
+  min-height: 100%;
+  margin-bottom: 3vh;
+  border-radius: 20%;
+}
+
+.volunteer-card-img {
+  object-fit: cover;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.volunteer-card {
+  position: relative;
+  display: flex;
+  margin: 0px auto 0px;
+}
+
+.volunteer-container {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  min-height: 75vh;
+}
+
+.volunteer-card li {
+  list-style-type: none;
+  justify-content: center;
+  padding-left: 42px;
+}
+
+/* Miscellaneous */
+
+.card {
+  border: solid 1px #28a745;
+}
+
+.carousel-inner,
+.carousel-item,
+.carousel-item-img {
+  max-height: 50vh;
+}
+
+.content-text {
+  font-family: "Oswald", sans-serif;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 1224px) {
+  .events-list {
+    max-width: 80%;
+    padding-left: 5%;
+  }
+
+  .rescues-slide {
+    padding-left: 10%;
+  }
+
+  .animal-card:hover,
+  .volunteer-card:hover {
+    transform: scale(1.05);
+    transition-duration: .5s;
+    touch-action: none;
+  }
+
+  .animal-container {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .contact-form-card {
+    width: 60%;
+  }
+
+  .useful-links {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .about-section {
+    width: 60%;
+  }
+
+  #carouselRecentRescues {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
